@@ -1,0 +1,14 @@
+tenant:
+  enable: true
+  ignoreTables: user
+  column: tenant_id
+  ignoreSqls:
+
+server:
+  port: 8981
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tenant?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
